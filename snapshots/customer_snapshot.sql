@@ -1,6 +1,6 @@
 {% snapshot customers %}
 
-{% set new_schema = target.schema + '_snapshot' %}
+{% set new_schema = target.schema + '_snap' %}
 
 {{
     config(

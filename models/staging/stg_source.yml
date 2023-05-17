@@ -23,9 +23,10 @@ sources:
 
   - name: Snap source
     database: SIAD_DEV_DB
-    schema: CUSTOMER_SNAPSHOT
+    schema: SIAD_DEV_SCH_SNAP
     tables:
-      - name: customer
+      - name: CUSTOMERS
+
       
   - name: Test source
     database: DBT_TAKS_DB
