@@ -34,3 +34,7 @@ sources:
     tables:
       - name: test_d
       
+models :
+  - name: CUSTOMER
+    tests:
+      - custom_test
