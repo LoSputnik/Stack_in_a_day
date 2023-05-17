@@ -2,7 +2,7 @@
 
 {{config(
     materialized = 'incremental',
-    unique_key = 'C_CUSTKEY'
+    unique_key = 'CUSTOMER_CUST_KEY'
 )
 }}
 
