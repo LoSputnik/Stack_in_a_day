@@ -1,0 +1,35 @@
+version: 2
+
+sources:
+  - name: Employees source
+    database: siad_raw_db
+    schema: siad_raw_sch
+    tables:
+      - name: employee
+      - name: employees
+
+  - name: Customer  source
+    database: siad_raw_db
+    schema: siad__schema1
+    tables:
+      - name: customer
+    
+  - name: Geographical source
+    database: siad_raw_db
+    schema: siad__schema2
+    tables:
+      - name: nation
+      - name: region
+
+  - name: Snap source
+    database: SIAD_DEV_DB
+    schema: CUSTOMER_SNAPSHOT
+    tables:
+      - name: customer
+      
+  - name: Test source
+    database: DBT_TAKS_DB
+    schema: DBT_TASK_SCH
+    tables:
+      - name: test_d
+      
