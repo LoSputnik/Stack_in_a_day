@@ -2,7 +2,7 @@ WITH REGION AS (
     SELECT *
     FROM {{ source('Geographical source', 'region') }}
 ),
-NATION AS (
+NATION  AS (
     SELECT *
     FROM {{ source('Geographical source', 'nation') }}
 ),
